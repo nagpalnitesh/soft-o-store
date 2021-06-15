@@ -15,10 +15,10 @@ export default function Home() {
       {/* Main */}
       <div className="homeinner">
         <div className="homecnt">
-          <div className="title">
+          <div className="hometitletxt">
             <h1>Soft-o-Store</h1>
           </div>
-          <div className="tagline">
+          <div className="hometag">
             <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
           </div>
         </div>

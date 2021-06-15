@@ -1,0 +1,32 @@
+.header {
+  position: absolute;
+  width: 3%;
+  top: 2%;
+  left: 95%;
+}
+
+.header-menu {
+  width: 100%;
+  float: right;
+  cursor: pointer;
+}
+
+.menubtn {
+  cursor: pointer;
+}
+
+.header-menu span hr {
+  background-color: whitesmoke;
+  height: 0.3em;
+  margin: 0.3em 0em;
+  border-radius: 5em;
+  width: 50%;
+}
+
+.header-menu span hr:nth-child(1) {
+  margin-left: 50%;
+}
+
+.header-menu span hr:nth-child(2) {
+  margin-left: 25%;
+}

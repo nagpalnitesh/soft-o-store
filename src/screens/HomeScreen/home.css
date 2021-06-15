@@ -2,7 +2,6 @@
 
 .home {
   height: 100vh;
-  color: whitesmoke;
 }
 
 /* Background */
@@ -35,8 +34,7 @@
 /* MainContent */
 
 .homeinner {
-  height: 100vh;
-  position: relative;
+  height: fit-content;
 }
 
 .homeinner .homecnt {
@@ -44,21 +42,24 @@
   text-align: center;
   padding: 1em 0em;
   position: absolute;
-  top: 35%;
+  top: 32%;
   left: 10%;
 }
 
-.title {
+.hometitletxt {
   font-size: 5em;
   margin-bottom: 1%;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-family: "Crimson Text", serif;
   text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
 }
 
-.tagline {
+.hometitletxt h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.hometag {
   font-size: 2em;
   letter-spacing: 0.1em;
-  font-family: "Source Sans Pro", sans-serif;
 }
