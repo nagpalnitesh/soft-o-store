@@ -19,7 +19,16 @@ export default function Home() {
             <h1>Soft-o-Store</h1>
           </div>
           <div className="hometag">
-            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+            <p>"All softwares at one place"</p>
+          </div>
+          <div className="searchbox">
+            <form>
+              <input type="search" placeholder="Search Website, E-commerce, Mobile Applications" aria-label="Search" />
+              <span type="submit">
+                <p>
+                  Search
+                </p></span>
+            </form>
           </div>
         </div>
       </div>
