@@ -12,7 +12,7 @@
   left: 0%;
   bottom: 0%;
   right: 0%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -52,7 +52,7 @@
   margin-bottom: 1%;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
+  text-shadow: 0.1em 0.1em 0.1em rgb(66, 66, 66);
 }
 
 .hometitletxt h1 {
@@ -95,10 +95,19 @@
   border-radius: 2em;
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
   cursor: pointer;
 }
 
 .searchbox form span:hover p {
   background-color: cornflowerblue;
+}
+
+.searchbox form span:hover p i {
+  animation: search 0.2s linear forwards;
+}
+
+@keyframes search {
+  0% {
+    transform: translate();
+  }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import bgVideo from "../../assets/videos/bgtunnel.mp4"
+import bgVideo from "../../assets/videos/bgdots.mp4"
 import "./home.css";
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
               <input type="search" placeholder="Search Website, E-commerce, Mobile Applications" aria-label="Search" />
               <span type="submit">
                 <p>
-                  Search
+                  <i class="fas fa-arrow-right"></i>
                 </p></span>
             </form>
           </div>
